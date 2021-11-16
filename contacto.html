@@ -14,7 +14,49 @@
 </head>
 
 <body>
+  <header>
+    <h1>CONTÁCTENOS</h1>
+  </header>
+  <hr/>
 
+  <form>
+   <ul>
+      <li>
+        <label for="nombre_apellido">Nombre:</label>
+        <input type="text" name="nombre_apellido"/>
+      </li>
+      <li>
+        <label for="email">email:</label>
+        <input type="text" name="email"/>
+      </li>
+        <li>  
+        <label for="empresa">Empresa:</label>
+        <input type="text" name="empresa"/>
+      </li>
+      <li>
+        <label for="telefono">Teléfono:</label>
+        <input type="number" name="telefono"/>
+      </li>
+      <li> 
+        <label for="pais">País:</label>
+        <select  name="pais" >
+          <option value="U">Uruguay</option>
+          <option value="A">Argentina</option>
+          <option value="B">Brasil</option>
+          <option value="P">Paraguay</option>
+          <option value="O">Otros</option>
+        </select>
+      </li>
+      <li>  
+        <label for="msg">Mensaje:</label>
+        <textarea name="message" rows="10" cols="30"></textarea>
+      </li>  
+    </ul>
+  </form>
+
+
+
+    
   <footer>
     <p>Copyright &copy; 2022 Peter Do e, todos los derechos reservados.</p>
   </footer>
