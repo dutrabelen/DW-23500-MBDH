@@ -2,17 +2,17 @@
 #azul{
 
   background-color:cornflowerblue;
-  width: 50%;
+  width: 49%;
   height: 300px;
   display: inline-block;
-  margin-top: 0px;
- 
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 #violeta{
 
   background-color:blueviolet;
-  width: 50%;
+  width:  49%;
   height: 300px;
   display: inline-block;
   margin-left: -4px;
@@ -22,11 +22,12 @@
 #verde{
 
   background-color:aquamarine;
-  width: 100%;
+  width: 98%;
   height: 300px;
   display: inline-block;
   margin: none; 
   margin-top: -4px;
+  margin-left: 10px;
 }
 
 .flexbox {
