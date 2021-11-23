@@ -1,0 +1,37 @@
+#misionH {
+  background-color:#00ace6;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  
+}
+
+#visionH {
+  background-color:#9900cc;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#valoresH {
+  background-color:#33cccc;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#mision {
+  background-color:#00ace6;
+  color: #ffffff;
+}
+
+#vision {
+  background-color:#9900cc;
+  color: #ffffff;
+
+}
+
+#valores {
+  background-color:#33cccc;
+  color: #ffffff;
+}

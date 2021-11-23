@@ -10,6 +10,15 @@
         <a href="novedades.html">Novedades </a>
         <a href="contacto.html">Contacto</a>
       </nav>
+    <style>
+        ul {
+          list-style-type: none;
+        }
+        nav {
+          text-align: right;
+        }
+     </style>
+    
 </head>
 
 <body>
@@ -19,49 +28,61 @@
   </header>
   <hr/>
 
-  <form>
-   <ul>
-      <li>
-        <label for="nombre_apellido">Nombre:</label>
-        <input type="text" name="nombre_apellido"/>
-      </li>
-      <li>
-        <label for="email">email:</label>
-        <input type="text" name="email"/>
-      </li>
-        <li>  
-        <label for="empresa">Empresa:</label>
-        <input type="text" name="empresa"/>
-      </li>
-      <li>
-        <label for="telefono">Teléfono:</label>
-        <input type="number" name="telefono"/>
-      </li>
-      <li> 
-        <label for="pais">País:</label>
-        <select  name="pais" >
-          <option value="U">Uruguay</option>
-          <option value="A">Argentina</option>
-          <option value="B">Brasil</option>
-          <option value="P">Paraguay</option>
-          <option value="O">Otros</option>
-        </select>
-      </li>
-      <li>  
-        <label for="msg">Mensaje:</label>
-        <textarea name="message" rows="10" cols="30"></textarea>
-      </li>
-      <li>  
-        <div>Acepta tréminos y condiciones</div>
-        <input type="checkbox" name="acepta" value="1" />
-      </li>  
-    </ul>
-    <input type="submit">
-  </form>
+  <section>
+    <article>
+      <ul>
+          <li>
+            <label for="nombre_apellido">Nombre:</label>
+            <input type="text" name="nombre_apellido"/>
+          </li>
+          <li>
+            <label for="email">email:</label>
+            <input type="text" name="email"/>
+          </li>
+            <li>  
+            <label for="empresa">Empresa:</label>
+            <input type="text" name="empresa"/>
+          </li>
+          <li>
+            <label for="telefono">Teléfono:</label>
+            <input type="number" name="telefono"/>
+          </li>
+          <li> 
+            <label for="pais">País:</label>
+            <select  name="pais" >
+              <option value="U">Uruguay</option>
+              <option value="A">Argentina</option>
+              <option value="B">Brasil</option>
+              <option value="P">Paraguay</option>
+              <option value="O">Otros</option>
+            </select>
+          </li>
+          <li>  
+            <label for="msg">Mensaje:</label>
+            <textarea name="message" rows="10" cols="30"></textarea>
+          </li>
+          <li>  
+            <div>Acepta tréminos y condiciones</div>
+            <input type="checkbox" name="acepta" value="1" />
+          </li>  
+        </ul>
+        <input type="submit">
+      </form>
+    </article>
+  <section>  
 
-
-
-    
+  <aside>
+        <h1>Torre Vista Infinita</h1>
+      <ul>
+        <li>Julio Cesar 1215</li>
+        <li>CP 11300</li>
+        <li>Montevideo, Uruguay</li>
+        <li>(+589) 2 622 3784 / 99 990 998</li>
+        <li>info@hdsconsulting.com.uy</li>
+      </ul>
+  </aside>
+  
+  
   <footer>
     <p>Copyright &copy; 2022 Peter Do e, todos los derechos reservados.</p>
   </footer>
