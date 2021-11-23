@@ -1,0 +1,54 @@
+
+#azul{
+
+  background-color:cornflowerblue;
+  width: 50%;
+  height: 300px;
+  display: inline-block;
+  margin-top: 0px;
+ 
+}
+
+#violeta{
+
+  background-color:blueviolet;
+  width: 50%;
+  height: 300px;
+  display: inline-block;
+  margin-left: -4px;
+  margin-top: 0px;
+}
+
+#verde{
+
+  background-color:aquamarine;
+  width: 100%;
+  height: 300px;
+  display: inline-block;
+  margin: none; 
+  margin-top: -4px;
+}
+
+.flexbox {
+  align-items: center;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  width: auto;
+  color: #333;
+  margin-top: 20px;
+}
+
+.titulos {
+  float: right;
+  display: flex;
+  align-items: center;
+  word-break:break-all;
+  margin: 0 0 0 0;
+  font-size: 20px;
+  color: white;
+}
+
+.parrafo {
+  color: white;
+}
