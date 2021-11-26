@@ -1,8 +1,6 @@
 #index{
   background-color: #000000;
-
 }
-
 
 #menu{
   text-align: right;
@@ -13,7 +11,7 @@
   color: #000000;
   text-decoration: none ;
   background-color: #C4C4C4;
-  font-family:sans-serif;
+  font-family:'Roboto', sans-serif; 
   width: 200px;
   height: 20px;
   text-align: center;
@@ -29,52 +27,41 @@
 }
 
 
-#menuletra{
-  color: #000000;
-  text-decoration: none ;
-  background-color: #C4C4C4;
-  margin-right: 50px;
-  padding: 10px;
-  font-family:sans-serif;
-  font-size: 16px;
-  border: 30px;
-  margin: 30px;
- 
- 
-}
-
 #azul{
 
   background-color:cornflowerblue;
   width: 49%;
-  height: 300px;
+  height: 200px;
   display: inline-block;
   margin-top: 10px;
   margin-left: 10px;
-  font-family:sans-serif;
+  font-family:'Roboto', sans-serif; 
+  
 }
 
 #violeta{
 
   background-color:blueviolet;
   width:  49%;
-  height: 300px;
+  height: 200px;
   display: inline-block;
   margin-left: -4px;
   margin-top: 0px;
-  font-family:sans-serif;
+  font-family:'Roboto', sans-serif; 
+  text-align: center, justify;
 }
 
 #verde{
 
   background-color:#3EDDC0;
   width: 98%;
-  height: 300px;
+  height: 200px;
   display: inline-block;
   margin: none; 
   margin-top: -4px;
   margin-left: 10px;
-  font-family:sans-serif;
+  font-family:'Roboto', sans-serif;
+  text-align: center, justify;
 }
 
 .flexbox {
@@ -99,6 +86,7 @@
 
 .parrafo {
   color: white;
+  text-align: center;
 }
 
 
@@ -114,7 +102,7 @@
   width: 200px;
   height: 90px;
   display: inline-block;
-  font-family:sans-serif;
+  font-family:'Roboto', sans-serif;
  }
 
  
@@ -131,7 +119,7 @@
   height: 90px;
   margin-top: 10px;
   display: inline-block;
-  font-family:sans-serif;
+  font-family:'Roboto', sans-serif;
 
  }
 
@@ -147,7 +135,7 @@
   height: 90px;
   margin-top: 10px;
   display: inline-block;
-  font-family:sans-serif;
+  font-family:'Roboto', sans-serif;
 
 }
 
@@ -163,7 +151,7 @@
  height: 90px;
  margin-top: 10px;
  display: inline-block;
- font-family:sans-serif;
+ font-family:'Roboto', sans-serif;
 
  }
 
@@ -180,7 +168,52 @@
   height: 90px;
   margin-top: 10px;
   display: inline-block;
-  font-family:sans-serif;
+  font-family:'Roboto', sans-serif;
 
  }
 
+ #msjeinicial {
+  color:white;
+  text-align: right;
+  font-size: 150%;
+  font-family:'Roboto', sans-serif;
+  width: 100%;
+  display: inline-block;
+     }
+
+  #horizontal {
+    display: inline-block;
+         }
+
+  .news
+  {
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    font-family:'Roboto', sans-serif;
+    color: grey;
+
+         }
+
+  #fila
+    {
+      display: inline-block;
+      margin-left: 100px;
+      margin-top: 20px;
+      text-align: justify;
+            }
+
+  .vermas
+    {
+      display: inline-block;
+      color: white;
+      background-color: #E25353;
+      font-family:'Roboto', sans-serif;
+      margin-right: 10px;
+      margin-top: 10px;
+      border: inset #E25353;
+      text-align: center;
+      padding: 3px;
+      
+     }
+  
