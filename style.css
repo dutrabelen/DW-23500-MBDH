@@ -1,3 +1,47 @@
+#index{
+  background-color: #000000;
+
+}
+
+
+#menu{
+  text-align: right;
+}
+
+.menudetalle{
+  display: inline-block;
+  color: #000000;
+  text-decoration: none ;
+  background-color: #C4C4C4;
+  font-family:sans-serif;
+  width: 200px;
+  height: 20px;
+  text-align: center;
+  border-top: solid 3px #9494b8;
+  border-bottom: solid 5px #696969;
+  border-right: solid 8px #f0f5f5;
+  border-left: solid 10px #c2c2d6;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  margin-left: 10px;
+
+}
+
+
+#menuletra{
+  color: #000000;
+  text-decoration: none ;
+  background-color: #C4C4C4;
+  margin-right: 50px;
+  padding: 10px;
+  font-family:sans-serif;
+  font-size: 16px;
+  border: 30px;
+  margin: 30px;
+ 
+ 
+}
 
 #azul{
 
@@ -7,6 +51,7 @@
   display: inline-block;
   margin-top: 10px;
   margin-left: 10px;
+  font-family:sans-serif;
 }
 
 #violeta{
@@ -17,6 +62,7 @@
   display: inline-block;
   margin-left: -4px;
   margin-top: 0px;
+  font-family:sans-serif;
 }
 
 #verde{
@@ -28,6 +74,7 @@
   margin: none; 
   margin-top: -4px;
   margin-left: 10px;
+  font-family:sans-serif;
 }
 
 .flexbox {
@@ -53,3 +100,87 @@
 .parrafo {
   color: white;
 }
+
+
+
+.indexcuadro1 {
+  color:white;
+  background-color: #5D5FEF;
+  text-decoration: none ;
+  padding: 10px;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 200px;
+  height: 90px;
+  display: inline-block;
+  font-family:sans-serif;
+ }
+
+ 
+
+ .indexcuadro2 {
+  color: #000000;
+  background-color: #3EDDC0;
+  text-decoration: none ;
+  padding: 10px;
+  margin-left: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 200px;
+  height: 90px;
+  margin-top: 10px;
+  display: inline-block;
+  font-family:sans-serif;
+
+ }
+
+ .indexcuadro3 {
+  color:white;
+  background-color: #AD3AC0;
+  text-decoration: none ;
+  padding: 10px;
+  margin-left: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 200px;
+  height: 90px;
+  margin-top: 10px;
+  display: inline-block;
+  font-family:sans-serif;
+
+}
+
+.indexcuadro4 {
+ color: #000000;
+ background-color: #D7DA62;
+ text-decoration: none ;
+ padding: 10px;
+ margin-left: 10px;
+ padding-left: 5px;
+ padding-right: 5px;
+ width: 200px;
+ height: 90px;
+ margin-top: 10px;
+ display: inline-block;
+ font-family:sans-serif;
+
+ }
+
+.indexcuadro5 {
+  color:white;
+  background-color: #FF5959;
+  text-decoration: none ;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 200px;
+  height: 90px;
+  margin-top: 10px;
+  display: inline-block;
+  font-family:sans-serif;
+
+ }
+

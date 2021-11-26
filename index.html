@@ -1,38 +1,56 @@
 <!DOCTYPE html>
 <html>
 
-<head>
+<head id="index">
     <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
     <title>Page Title</title>
      
-
-     <nav id="primary-menu">
-        <a href="hdsconsulting.html">HDS Consulting</a>
-        <a href="soluciones.html">Soluciones</a>
-        <a href="novedades.html">Novedades </a>
-        <a href="contacto.html">Contacto</a>
-     </nav>
-     <style>
-      nav {
-        text-align: right;
+    <nav id="menu">
+      <a href="hdsconsulting.html" > <div class="menudetalle">HDS Consulting</div></a>
+      <a href="soluciones.html" ><div class="menudetalle">Soluciones</div></a>
+      <a href="novedades.html"><div class="menudetalle">Novedades</div></a>
+      <a href="contacto.html"><div class="menudetalle">Contacto</div></a>
+    </nav>
+    
+    <style>
+      body {
+        background-color: #0000;
       }
-   </style>
+      p {
+        color:white;
+        text-align: right;
+        font-size: 150%;
+        font-family:sans-serif;
+           }
+      h1 {
+        color:white;
+        text-align: left;
+        font-size: 10px;
+        font-family:sans-serif;
+           }
+      
+    </style>
 </head>
 
-<body>
-  <img src="hdsconsulting.jpeg" alt="logo" width="150" height="150">
-  <p>CONTRIBUIR A LA DIGITALIZACION DEL SECTOR, PROMOVIENDO ORGANZIACIONES PRODUCTIVAS, COMPROMETIDAS Y ORIENTADAS A LA MEJOR CALIDAD</p>
+<body id="index">
+  <img src="./folder/hdsconsulting.jpeg" alt="logo" width="250" height="250" >
+  <p>CONTRIBUIR A LA DIGITALIZACION DEL SECTOR SALUD, PROMOVIENDO ORGANZIACIONES PRODUCTIVAS, COMPROMETIDAS Y ORIENTADAS A LA MEJOR CALIDAD</p> 
+  <iframe title="vimeo-player" src="https://player.vimeo.com/video/334478995?h=2161c36273" width="640" height="260" frameborder="0" allowfullscreen></iframe>
 
-  <nav id="secondary-menu">
-    <a href="sistemas-gestion-organizaciones-salud.html">Sistemas de Gestión para Organizaciones de Salud</a>
-    <a href="historia-clinica-electronica.html">História Clinica Electrónica</a>
-    <a href="autogestion-compromiso-y-prevension.html">Autogestión, Compromiso y Prevensión</a>
-    <a href="analisis-gestion-informacion-para-gestion-sanitaria.html">Análisis de Información para la gestión sanitaria</a>
-    <a href="sistemas-apoyo-desicion-clinica-presecripcion-farmacos.html">Sistemas de apoyo a la decisión clínica en la prescipción de farmacos</a>
+
+  <nav>
+    <div>
+       <a href="sistemas-gestion-organizaciones-salud.html"><div class="indexcuadro1">Sistemas de Gestión para Organizaciones de Salud</div></a>
+       <a href="historia-clinica-electronica.html"><div class="indexcuadro2">História Clinica Electrónica</div></a>
+       <a href="autogestion-compromiso-y-prevension.html"><div class="indexcuadro3">Autogestión, Compromiso y Prevensión</div></a>
+       <a href="analisis-gestion-informacion-para-gestion-sanitaria.html"><div class="indexcuadro4">Análisis de Información para la gestión sanitaria</div></a>
+       <a href="sistemas-apoyo-desicion-clinica-presecripcion-farmacos.html"><div class="indexcuadro5">Sistemas de apoyo a la decisión clínica en la prescipción de farmacos</div></a>
+    </div>
   </nav>
 
   <footer>
-    <p>Copyright &copy; 2022 Peter Doe, todos los derechos reservados.</p>
+    <h1>Copyright &copy; 2022 Peter Doe, todos los derechos reservados.</h1>
   </footer>
 
 </body>
