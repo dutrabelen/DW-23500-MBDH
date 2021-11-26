@@ -177,14 +177,17 @@
   text-align: right;
   font-size: 150%;
   font-family:'Roboto', sans-serif;
-  width: 100%;
+  width: 40%;
   display: inline-block;
      }
 
-  #horizontal {
+  
+  
+#video {
     display: inline-block;
-         }
-
+    width: 40%;
+               }
+      
   .news
   {
     width: 300px;
@@ -216,4 +219,19 @@
       padding: 3px;
       
      }
+
+     .contacto
+     {
+      border-bottom: solid 3px #269898;
+     }
+
+     .input {
+      background-color:#269898 ;
+      font-family:'Roboto', sans-serif;
+      color: white;
+      margin-right: 30px;
+  }
   
+  .form {
+    font-family:'Roboto', sans-serif;
+  }
