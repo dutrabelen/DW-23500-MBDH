@@ -7,10 +7,10 @@
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <nav id="menu">
-      <a href="index.html" > <div class="menudetalle">Principal</div></a>
-      <a href="hdsconsulting.html"><div class="menudetalle">HDS Consulting</div></a>
-      <a href="soluciones.html" ><div class="menudetalle">Soluciones</div></a>
-      <a href="novedades.html"><div class="menudetalle">Novedades</div></a>
+      <a href="index.html" > <div class="menudetalle2">Principal</div></a>
+      <a href="hdsconsulting.html"><div class="menudetalle2">HDS Consulting</div></a>
+      <a href="soluciones.html" ><div class="menudetalle2">Soluciones</div></a>
+      <a href="novedades.html"><div class="menudetalle2">Novedades</div></a>
       
     </nav>
     <style>
@@ -31,22 +31,76 @@
           float: top;
           font-family:'Roboto', sans-serif;
                 }
-          
-       
-     </style>
+        
+        p{
+         color: #8c8c8c;
+         text-align: left;
+         font-family:'Roboto', sans-serif; 
+           }
+
+        aside  {
+         color: #8c8c8c;
+      }
+
+      input
+
+      {
+        font-family:'Roboto', sans-serif;
+      }
+      
+      input[type=text], select {
+        width: 60%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+           }
+
+      input[type=number], select {
+        width: 60%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-family:'Roboto', sans-serif; 
+      }
+
+      input[type=submit] {
+      width: 60%;
+      background-color: #00b3b3;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      }
+
+      input[type=submit]:hover {
+      background-color:#00b3b3;
+      }
+
+
+    </style>
     
 </head>
 
 <body>
+
   <header>
-    <img src="./folder/hdsconsulting.jpeg" alt="logo" width="140" height="140">
-    
+    <img src="./folder/hdsconsultingdifum.jpg" alt="logo" width="140" height="140">    
   </header>
   
 
   <div class="contacto"> <h1>CONTÁCTENOS</h1></div>
-  <form>
-        <ul class="form">
+  
+  <div class="stylef">
+    <form>
+        <ul>
           <li>
             <label for="nombre_apellido">Nombre:</label>
             <input type="text" name="nombre_apellido"/>
@@ -83,10 +137,12 @@
           </li>  
         </ul>
         <input type="submit" class="input">
+      
     </form>
+  </div>  
     
     <aside>
-       <h4>Torre Vista Infinita</h4>
+       <h4><div id="aside">Torre Vista Infinita</div></h4>
        <ul>
           <li>Julio Cesar 1215</li>
           <li>CP 11300</li>
