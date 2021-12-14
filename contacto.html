@@ -21,16 +21,7 @@
         body {
           background-color: #E5E5E5;
         }
-        aside {
-          width: 30%;
-          padding-left: 15px;
-          padding-top: 0px;
-          margin-left: 15px;
-          margin-bottom:40px;
-          float: right;
-          float: top;
-          font-family:'Roboto', sans-serif;
-                }
+      
         
         p{
          color: #8c8c8c;
@@ -38,53 +29,7 @@
          font-family:'Roboto', sans-serif; 
            }
 
-        aside  {
-         color: #8c8c8c;
-      }
-
-      input
-
-      {
-        font-family:'Roboto', sans-serif;
-      }
-      
-      input[type=text], select {
-        width: 60%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-           }
-
-      input[type=number], select {
-        width: 60%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-        font-family:'Roboto', sans-serif; 
-      }
-
-      input[type=submit] {
-      width: 60%;
-      background-color: #00b3b3;
-      color: white;
-      padding: 14px 20px;
-      margin: 8px 0;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      }
-
-      input[type=submit]:hover {
-      background-color:#00b3b3;
-      }
-
-
+        
     </style>
     
 </head>
@@ -96,53 +41,54 @@
   </header>
   
 
-  <div class="contacto"> <h1>CONTÁCTENOS</h1></div>
+  <div class="contacto"> 
+    <h1>CONTÁCTENOS</h1>
+  </div>
   
-  <div class="stylef">
-    <form>
-        <ul>
-          <li>
-            <label for="nombre_apellido">Nombre:</label>
-            <input type="text" name="nombre_apellido"/>
-          </li>
-          <li>
-            <label for="Email">email:</label>
-            <input type="text" name="email"/>
-          </li>
-            <li>  
-            <label for="empresa">Empresa:</label>
-            <input type="text" name="empresa"/>
-          </li>
-          <li>
-            <label for="telefono">Teléfono:</label>
-            <input type="number" name="telefono"/>
-          </li>
-          <li> 
-            <label for="pais">País:</label>
-            <select  name="pais" >
-              <option value="U">Uruguay</option>
-              <option value="A">Argentina</option>
-              <option value="B">Brasil</option>
-              <option value="P">Paraguay</option>
-              <option value="O">Otros</option>
-            </select>
-          </li>
-          <li>  
-            <label for="msg">Mensaje:</label>
-            <textarea name="message" rows="10" cols="30"></textarea>
-          </li>
-          <li>  
-            <div>Acepta tréminos y condiciones</div>
-            <input type="checkbox" name="acepta" value="1" />
-          </li>  
-        </ul>
-        <input type="submit" class="input">
-      
-    </form>
+  <div>
+        <form>
+            <ul>
+              <li>
+                <label for="nombre_apellido" class="inputnombre">Nombre:</label>
+                <input type="text" name="nombre_apellido" class="inputform"/>
+              </li>
+              <li>
+                <label for="Email" class="inputnombre">email:</label>
+                <input type="text" name="email" class="inputform"/>
+              </li>
+                <li>  
+                <label for="empresa"class="inputnombre">Empresa:</label>
+                <input type="text" name="empresa" class="inputform"/>
+              </li>
+              <li>
+                <label for="telefono" class="inputnombre">Teléfono:</label>
+                <input type="number" name="telefono" class="inputform"/>
+              </li>
+              <li> 
+                <label for="pais" class="inputnombre">País:</label>
+                <select  name="pais"  class="inputform">
+                  <option value="U">Uruguay</option>
+                  <option value="A">Argentina</option>
+                  <option value="B">Brasil</option>
+                  <option value="P">Paraguay</option>
+                  <option value="O">Otros</option>
+                </select>
+              </li>
+              <li>  
+                <label for="msg" class="inputnombre">Mensaje:</label>
+                <textarea name="message" rows="10" cols="30"  class="inputform"></textarea>
+              </li>
+              <li>  
+                <div class="inputnombre">Acepta tréminos y condiciones</div>
+                <input type="checkbox" name="acepta" value="1" class="input"/>
+              </li>  
+            </ul>
+            <input type="submit" class="inputsubmit"/>
+        </form>
   </div>  
     
-    <aside>
-       <h4><div id="aside">Torre Vista Infinita</div></h4>
+  <aside class="aside">
+       <h4><div class="direccion">Torre Vista Infinita</div></h4>
        <ul>
           <li>Julio Cesar 1215</li>
           <li>CP 11300</li>
@@ -150,11 +96,7 @@
           <li>(+589) 2 622 3784 / 99 990 998</li>
           <li>info@hdsconsulting.com.uy</li>
         </ul>
-    </aside>
-  
-
-  
-  
+  </aside>
   
   <footer>
     <p>Copyright &copy; 2022 Peter Do e, todos los derechos reservados.</p>

@@ -1,6 +1,5 @@
-#index{
-  background-color: #000000;
-}
+
+/********************MENU*********************/
 
 #menu{
   text-align: right;
@@ -57,6 +56,7 @@
 
 }
 
+/********************HDSCONSULTING*********************/
 
 #azul{
 
@@ -120,6 +120,11 @@
   text-align: center;
 }
 
+/********************INDEX*********************/
+
+#index{
+  background-color: #000000;
+}
 
 
 .indexcuadro1 {
@@ -235,10 +240,11 @@
     display: inline-block;
     width: 40%;
                }
-      
+
+/***************************NOVEDADES*********************/
   .news
   {
-    width: 250px;
+    width: 290px;
     height: 150px;
     display: inline-block;
     font-family:'Roboto', sans-serif;
@@ -268,28 +274,95 @@
       
      }
 
+/*****************CONTACTO*****************/
+
      .contacto
      {
       border-bottom: solid 3px #00b3b3;
       font-family:'Roboto', sans-serif;
       color: #8c8c8c; 
-      width: 60%;
+      width: 65%;
       text-align: center;
       margin-left: 10px;
 
      }
 
-     .input {
-      background-color:#808080 ;
-      font-family:'Roboto', sans-serif;
-      color: white;
-      margin-right: 30px;
-  }
+     .inputform {
+      
+      width: 60%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
   
-     .stylef {
-      width: 100%;
-    
+    .inputsubmit {
+      background-color: #00b3b3;
+      width: 65%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
      }
+
+     .inputnombre {
+      font-family:'Roboto', sans-serif;
+      color: #8c8c8c;
+     }
+
+     .aside {
+      width: 30%;
+      padding-left: 5px;
+      padding-top: 0px;
+      margin-left: 15px;
+      margin-bottom:40px;
+      float: right;
+      float: top;
+      font-family:'Roboto', sans-serif;
+      color: #8c8c8c;
+            }
+
+     .direccion {
+      color: #8c8c8c;
+      font-family:'Roboto', sans-serif;
+            }
+    
+    #grillaindex {
+      display: grid;
+      grid-template-areas:
+        "header header menu menu menu menu"
+        "section section section aside aside aside"
+        "servicios servicios servicios servicios servicios servicios"
+        "footer footer footer footer footer footer";
+      grid-template-rows: auto auto auto auto  ;
+      grid-template-columns:  auto auto auto auto auto auto;
+                    }
+
+    header{
+      grid-area: header;
+                    }
+    nav#menu {
+      grid-area: menu;
+                    }
+    section{
+        grid-area: section;
+                      }
+                
+    aside{
+        grid-area: aside;
+                                    }
+    footer{
+      grid-area: footer;
+                                  }
+    nav#servicios{
+      grid-area: servicios;
+                                  }
+                                                              
+
+
+
 
    
  
