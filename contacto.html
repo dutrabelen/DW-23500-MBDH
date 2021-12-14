@@ -6,13 +6,6 @@
     <title>Page Title</title>
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <nav id="menu">
-      <a href="index.html" > <div class="menudetalle2">Principal</div></a>
-      <a href="hdsconsulting.html"><div class="menudetalle2">HDS Consulting</div></a>
-      <a href="soluciones.html" ><div class="menudetalle2">Soluciones</div></a>
-      <a href="novedades.html"><div class="menudetalle2">Novedades</div></a>
-      
-    </nav>
     <style>
         ul {
           list-style-type: none;
@@ -35,76 +28,74 @@
 </head>
 
 <body>
-
-  <header>
-    <img src="./folder/hdsconsultingdifum.jpg" alt="logo" width="140" height="140">    
-  </header>
-  
-
-  <div class="contacto"> 
-    <h1>CONTÁCTENOS</h1>
-  </div>
-  
-  <div>
-        <form>
+  <div id=grillacontacto>
+      <header id="logocontacto" ><img src="./folder/hdsconsultingdifum.jpg" alt="logo" width="200" height="200" ></header>
+      <nav id="padre-flex-menuc">
+        <div id="menuc">
+            <a href="index.html" > <div class="menudetalle2">Principal</div></a>
+            <a href="hdsconsulting.html"><div   class="menudetalle2">HDS Consulting</div></a>
+            <a href="soluciones.html" ><div class="menudetalle2">Soluciones</div></a>
+            <a href="novedades.html"><div class="menudetalle2">Novedades</div></a>
+        </div>
+      </nav>
+      <section class="contacto" id="sectioncontacto"> <h1>CONTÁCTENOS</h1> </section>
+      <section id="sectionformulario" id="padre-flex-form"> 
+          <div>
+            <form>
+                <ul>
+                  <li>
+                    <label for="nombre_apellido" class="inputnombre">Nombre:</label>
+                    <input type="text" name="nombre_apellido" class="inputform"/>
+                  </li>
+                  <li>
+                    <label for="Email" class="inputnombre">email:</label>
+                    <input type="text" name="email" class="inputform"/>
+                  </li>
+                    <li>  
+                    <label for="empresa"class="inputnombre">Empresa:</label>
+                    <input type="text" name="empresa" class="inputform"/>
+                  </li>
+                  <li>
+                    <label for="telefono" class="inputnombre">Teléfono:</label>
+                    <input type="number" name="telefono" class="inputform"/>
+                  </li>
+                  <li> 
+                    <label for="pais" class="inputnombre">País:</label>
+                    <select  name="pais"  class="inputform">
+                      <option value="U">Uruguay</option>
+                      <option value="A">Argentina</option>
+                      <option value="B">Brasil</option>
+                      <option value="P">Paraguay</option>
+                      <option value="O">Otros</option>
+                    </select>
+                  </li>
+                  <li>  
+                    <label for="msg" class="inputnombre">Mensaje:</label>
+                    <textarea name="message" rows="10" cols="30"  class="inputform"></textarea>
+                  </li>
+                  <li class="terminos">  
+                    <div  class="inputnombre">Acepta tréminos y condiciones</div>
+                    <input type="checkbox" name="acepta" value="1" class="input" />
+                  </li>  
+                </ul>
+                <input type="submit" class="inputsubmit"/>
+            </form>
+          </div>
+      </section> 
+      <aside class="asidedir" id="asidecontacto">
+            <h4><div class="direccion">Torre Vista Infinita</div></h4>
             <ul>
-              <li>
-                <label for="nombre_apellido" class="inputnombre">Nombre:</label>
-                <input type="text" name="nombre_apellido" class="inputform"/>
-              </li>
-              <li>
-                <label for="Email" class="inputnombre">email:</label>
-                <input type="text" name="email" class="inputform"/>
-              </li>
-                <li>  
-                <label for="empresa"class="inputnombre">Empresa:</label>
-                <input type="text" name="empresa" class="inputform"/>
-              </li>
-              <li>
-                <label for="telefono" class="inputnombre">Teléfono:</label>
-                <input type="number" name="telefono" class="inputform"/>
-              </li>
-              <li> 
-                <label for="pais" class="inputnombre">País:</label>
-                <select  name="pais"  class="inputform">
-                  <option value="U">Uruguay</option>
-                  <option value="A">Argentina</option>
-                  <option value="B">Brasil</option>
-                  <option value="P">Paraguay</option>
-                  <option value="O">Otros</option>
-                </select>
-              </li>
-              <li>  
-                <label for="msg" class="inputnombre">Mensaje:</label>
-                <textarea name="message" rows="10" cols="30"  class="inputform"></textarea>
-              </li>
-              <li>  
-                <div class="inputnombre">Acepta tréminos y condiciones</div>
-                <input type="checkbox" name="acepta" value="1" class="input"/>
-              </li>  
+              <li>Julio Cesar 1215</li>
+              <li>CP 11300</li>
+              <li>Montevideo, Uruguay</li>
+              <li>(+589) 2 622 3784 / 99 990 998</li>
+              <li>info@hdsconsulting.com.uy</li>
             </ul>
-            <input type="submit" class="inputsubmit"/>
-        </form>
-  </div>  
-    
-  <aside class="aside">
-       <h4><div class="direccion">Torre Vista Infinita</div></h4>
-       <ul>
-          <li>Julio Cesar 1215</li>
-          <li>CP 11300</li>
-          <li>Montevideo, Uruguay</li>
-          <li>(+589) 2 622 3784 / 99 990 998</li>
-          <li>info@hdsconsulting.com.uy</li>
-        </ul>
-  </aside>
-  
-  <footer>
-    <p>Copyright &copy; 2022 Peter Do e, todos los derechos reservados.</p>
-  </footer>
-
+      </aside>
+      <footer id="footercontacto">
+        <p>Copyright &copy; 2022 Peter Do e, todos los derechos reservados.</p>
+      </footer>
+   </div>
 </body>
-
-
-
 
 </html>
