@@ -56,13 +56,14 @@
 
 }
 
+/*
 .grillamenu {
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;   
 
-}
+} */
 
 /********************HDSCONSULTING*********************/
 
@@ -123,10 +124,23 @@
   color: white;
 }
 
+
+
 .parrafo {
   color: white;
-  text-align: center;
+  text-align: right;
+  margin-left: 0px;
+  margin-right: 150px;
+  width: 350px;
+  margin-top: 60px;
 }
+
+.video {
+  margin-top: 70px;
+  margin-left: 40px ;
+  margin-right: 0%;
+  
+               }
 
 /********************INDEX*********************/
 
@@ -169,7 +183,7 @@
   border-bottom: solid 6px #22c3a6;
   border-right: solid 7px  #93ecdc;
   border-left: solid 8px #bef4ea;
-  margin-left: 15px;
+  margin-left: 10px;
  
 
  }
@@ -189,7 +203,7 @@
   border-bottom: solid 6px #8d2f9d;
   border-right: solid 7px  #c776d6;
   border-left: solid 8px #dfb0e8;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 .indexcuadro4 {
@@ -207,7 +221,7 @@
   border-bottom: solid 6px #d1d345;
   border-right: solid 7px  #e5e798;
   border-left: solid 8px #f0f0c1;
-  margin-left: 15px;
+  margin-left: 10px;
  } 
 
 
@@ -226,7 +240,8 @@
   border-bottom: solid 6px #ff3333;
   border-right: solid 7px  #ff8080;
   border-left: solid 8px #ffb3b3;
-  margin-left: 15px;
+  margin-left: 10px;
+  
  }
 
 .indexcuadro6 {
@@ -246,58 +261,66 @@
   text-align: right;
   font-size: 150%;
   font-family:'Roboto', sans-serif;
-  width: 40%;
   display: inline-block;
      }
 
 
-.video {
-    margin-left: 50px ;
-                 }
+
+    
 
 #grillaindex {
     display: grid;
     grid-template-areas:
-    "header menus menus menus"
-    "section section aside aside"
-    "servicios servicios servicios servicios "
-    "footer footer footer footer";
+    "idlogoindex menuses menuses menuses"
+    "idlogoindex sectionvideo sectionvideo lemacia"
+    "navservicios navservicios navservicios navservicios "
+    "footindex footindex footindex footindex";
     grid-template-rows: auto auto auto auto  ;
     grid-template-columns:  auto auto auto auto;
     grid-row-gap: 15px;
               }
 
-header{
-  grid-area: header;
+header#idlogoindex{
+  grid-area: idlogoindex;
               }
 
-nav#menu {
-  grid-area: menus;
+nav#menuses {
+  grid-area: menuses;
               }
 
-section{
-  grid-area: section;
+section#sectionvideo{
+  grid-area: sectionvideo;
                 }
           
-aside{
-  grid-area: aside;
+aside#lemacia{
+  grid-area: lemacia;
+  justify-self: end;
+
                               }
 
-footer{
-  grid-area: footer;
+footer#footindex{
+  grid-area: footindex;
+  margin-top: 5px;
+  margin-left: 10px;
                             }
 
-nav#servicios{
-  grid-area: servicios;
+nav#navservicios{
+  grid-area: navservicios;
+  margin-top: 50px;
                             }
 
                                                         
 .padre-flex {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;             
-            }
-            
+  align-items: flex-start ;             
+}
+
+
+.padre-flex-menuindex {
+  display: flex;  flex-direction: row; 
+  justify-content: flex-end;             
+            }            
             
 
 /***************************NOVEDADES*********************/
