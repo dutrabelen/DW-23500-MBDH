@@ -1,0 +1,50 @@
+#grillasoluciones {
+  display: grid;
+  grid-template-areas:
+  "logosol menusol menusol"
+  "logosol sectionvid sectionvid "
+  "idfooter idfooter idfooter";
+  grid-template-rows: auto auto auto  ;
+  grid-template-columns:  auto auto auto;
+  grid-row-gap: 25px;
+          }
+
+  header#logosol{
+    grid-area: logosol;
+                }
+  nav#menusol {
+    grid-area: menusol;
+                }
+
+  section#sectionvid {
+    grid-area: sectionvid;
+    margin-top: 100px;
+    align-items: center;
+    margin-left: 80px;
+    /*
+    width: 140px;
+    height: 140px;
+    animation-name: efecto_video;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in;
+    animation-duration: 2s;
+    animation-delay: 10s;  */
+                }    
+
+                
+  footer#idfooter {
+    grid-area: idfooter;
+    margin-top: 150px;
+                }     
+                            
+
+  /*
+  @keyframes efecto_video{
+      0%   {   width: 140px;  }
+      0.2s {   width: 70px;   }
+      25%  {   width: 200px;  }
+      50%  {   width: 150px;  }
+      75%  {   width: 300px;  }
+      100% {   width: 140px;  }     
+              }   */
+
