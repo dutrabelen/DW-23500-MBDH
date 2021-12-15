@@ -70,40 +70,45 @@
 #azul{
 
   background-color:cornflowerblue;
-  width: 49%;
+  width: 700px;
   height: 200px;
   display: inline-block;
   margin-top: 10px;
   margin-left: 10px;
-  font-family:'Roboto', sans-serif; 
+  font-family:'Roboto', sans-serif;
+  text-align: center;
+  justify-content: center; 
   
 }
 
 #violeta{
 
   background-color:blueviolet;
-  width:  49%;
+  width:  700px;
   height: 200px;
   display: inline-block;
-  margin-left: -4px;
-  margin-top: 0px;
   font-family:'Roboto', sans-serif; 
-  text-align: center, justify;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-right:10px ;
 }
 
 #verde{
 
   background-color:#3EDDC0;
-  width: 98%;
+  width: 1450px;
   height: 200px;
   display: inline-block;
-  margin: none; 
-  margin-top: -4px;
   margin-left: 10px;
   font-family:'Roboto', sans-serif;
-  text-align: center, justify;
+  text-align: center;
+  justify-content: center;
+  margin-right:10px ;
+  margin-left: 10px;
 }
 
+/*
 .flexbox {
   align-items: center;
   display: flex;
@@ -112,14 +117,13 @@
   width: auto;
   color: #333;
   margin-top: 20px;
-}
+}*/
 
 .titulos {
-  float: right;
   display: flex;
   align-items: center;
+  justify-content: center;
   word-break:break-all;
-  margin: 0 0 0 0;
   font-size: 20px;
   color: white;
 }
@@ -130,9 +134,27 @@
   color: white;
   text-align: right;
   margin-left: 0px;
-  margin-right: 150px;
-  width: 350px;
+  margin-right: 20px;
+  width: 450px;
   margin-top: 60px;
+  font-size: 25px;
+  font-family:'Roboto', sans-serif; 
+}
+
+.textos1 {
+  color: white;
+  text-align: center;
+  width: 600px;
+  margin-top: 60px;
+  margin-left: 50px; 
+}
+
+.textos2 {
+  color: white;
+  text-align: center;
+  width: 1300px;
+  margin-top: 60px;
+  margin-left: 50px;  
 }
 
 .video {
@@ -141,6 +163,45 @@
   margin-right: 0%;
   
                }
+
+#grillahds {
+  display: grid;
+  grid-template-areas:
+  "idlogohds menuhds menuhds menuhds"
+  "idlogohds navhds navhds navhds"
+  "sectionmision sectionmision sectionvision sectionvision"
+  "sectionvalores sectionvalores sectionvalores sectionvalores"
+  "foothds foothds foothds foothds";
+  grid-template-rows: auto auto auto auto  ;
+  grid-template-columns:  auto auto auto auto;
+  grid-row-gap: 15px;
+          }
+
+  header#idlogohds{
+    grid-area: idlogohds;
+                }
+  nav#menuhds {
+    grid-area: menuhds;
+                }
+
+  section#sectionmision {
+    grid-area: sectionmision;
+                }    
+  section#sectionvision {
+    grid-area: sectionvision;
+                }    
+  section#sectionvalores {
+    grid-area: sectionvalores;
+                } 
+  footer#foothds {
+    grid-area: foothds;
+                }     
+                            
+
+
+
+
+
 
 /********************INDEX*********************/
 
