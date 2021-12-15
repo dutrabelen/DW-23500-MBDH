@@ -383,6 +383,19 @@ nav#navservicios{
   justify-content: flex-end;             
             }            
             
+         
+
+div#divsisgestion {
+  width: 200px;
+  height: 90px;
+  transition: height 2s; width 2s;          
+            }
+
+div#divsisgestion:hover{
+  height: 135px;
+  width: 300px;
+         
+            }          
 
 /***************************NOVEDADES*********************/
 .news {
