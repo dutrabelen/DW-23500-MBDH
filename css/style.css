@@ -108,16 +108,7 @@
   margin-left: 10px;
 }
 
-/*
-.flexbox {
-  align-items: center;
-  display: flex;
-  height: 50px;
-  justify-content: center;
-  width: auto;
-  color: #333;
-  margin-top: 20px;
-}*/
+
 
 .titulos {
   display: flex;
@@ -137,7 +128,7 @@
   margin-right: 20px;
   width: 450px;
   margin-top: 60px;
-  font-size: 25px;
+  font-size: 15px;
   font-family:'Roboto', sans-serif; 
 }
 
@@ -385,17 +376,7 @@ nav#navservicios{
             
          
 
-div#divsisgestion {
-  width: 200px;
-  height: 90px;
-  transition: height 2s; width 2s;          
-            }
-
-div#divsisgestion:hover{
-  height: 135px;
-  width: 300px;
-         
-            }          
+       
 
 /***************************NOVEDADES*********************/
 .news {
@@ -426,6 +407,7 @@ div#divsisgestion:hover{
   padding: 3px;
       
      }
+
 
 /*****************CONTACTO*****************/
 
