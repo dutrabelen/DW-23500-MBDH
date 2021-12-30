@@ -56,15 +56,6 @@
 
 }
 
-/*
-.grillamenu {
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;   
-
-} */
-
 /********************HDSCONSULTING*********************/
 
 #azul{
@@ -518,12 +509,7 @@ footer#footercontacto{
   display: flex;  flex-direction: row; 
   justify-content: flex-end;     
             } 
-  /*                  
-.logoc {
-  display: flex; flex-direction: row;
-  align-items: flex-start; 
-   
-            } */
+
 
    
  
