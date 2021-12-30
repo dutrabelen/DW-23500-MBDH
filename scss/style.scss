@@ -195,123 +195,110 @@
   
   #index{
     background-color: #000000;
-  }
-  
-  
-  .indexcuadro1 {
-    color:white;
-    background-color: #5D5FEF;
-    text-decoration: none ;
-    padding: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 200px;
-    height: 90px;
-    display: inline-block;
-    font-family:'Roboto', sans-serif;
-    border-top: solid 5px #7476f1;
-    border-bottom: solid 6px #171ae8;
-    border-right: solid 7px  #8b8df4;
-    border-left: solid 8px #a2a4f6;
-    margin-left: 20px;
-   }
-  
-  
-  .indexcuadro2 {
-    color: #000000;
-    background-color: #3EDDC0;
-    text-decoration: none ;
-    padding: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 200px;
-    height: 90px;
-    display: inline-block;
-    font-family:'Roboto', sans-serif;
-    border-top: solid 5px #67e4cd;
-    border-bottom: solid 6px #22c3a6;
-    border-right: solid 7px  #93ecdc;
-    border-left: solid 8px #bef4ea;
-    margin-left: 10px;
-   
-  
-   }
-  
-   .indexcuadro3 {
-    color:white;
-    background-color: #AD3AC0;
-    text-decoration: none ;
-    padding: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 200px;
-    height: 90px;
-    display: inline-block;
-    font-family:'Roboto', sans-serif;
-    border-top: solid 5px #b84eca;
-    border-bottom: solid 6px #8d2f9d;
-    border-right: solid 7px  #c776d6;
-    border-left: solid 8px #dfb0e8;
-    margin-left: 10px;
-  }
-  
-  .indexcuadro4 {
-    color: #000000;
-    background-color: #D7DA62;
-    text-decoration: none ;
-    padding: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 200px;
-    height: 90px;
-    display: inline-block;
-    font-family:'Roboto', sans-serif;
-    border-top: solid 5px #dbdd6e;
-    border-bottom: solid 6px #d1d345;
-    border-right: solid 7px  #e5e798;
-    border-left: solid 8px #f0f0c1;
-    margin-left: 10px;
-   } 
-  
-  
-  .indexcuadro5 {
-    color:white;
-    background-color: #FF5959;
-    text-decoration: none ;
-    padding: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 200px;
-    height: 90px;
-    display: inline-block;
-    font-family:'Roboto', sans-serif;
-    border-top: solid 5px #ff5959;
-    border-bottom: solid 6px #ff3333;
-    border-right: solid 7px  #ff8080;
-    border-left: solid 8px #ffb3b3;
-    margin-left: 10px;
-    
-   }
-  
-  .indexcuadro6 {
-    color:black;
-    background-color: black;
-    padding: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 100px;
-    height: 90px;
-    display: inline-block;
-  
-   }
-  
-  #msjeinicial {
-    color:white;
-    text-align: right;
-    font-size: 150%;
-    font-family:'Roboto', sans-serif;
-    display: inline-block;
+        &__indexcuadro1 {
+            color:white;
+            background-color: #5D5FEF;
+            text-decoration: none ;
+            padding: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 200px;
+            height: 90px;
+            display: inline-block;
+            font-family:'Roboto', sans-serif;
+            border-top: solid 5px #7476f1;
+            border-bottom: solid 6px #171ae8;
+            border-right: solid 7px  #8b8df4;
+            border-left: solid 8px #a2a4f6;
+            margin-left: 20px;
+        }
+        &__indexcuadro2 {
+            color: #000000;
+            background-color: #3EDDC0;
+            text-decoration: none ;
+            padding: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 200px;
+            height: 90px;
+            display: inline-block;
+            font-family:'Roboto', sans-serif;
+            border-top: solid 5px #67e4cd;
+            border-bottom: solid 6px #22c3a6;
+            border-right: solid 7px  #93ecdc;
+            border-left: solid 8px #bef4ea;
+            margin-left: 10px;   
+        }
+        &__indexcuadro3 {
+            color:white;
+            background-color: #AD3AC0;
+            text-decoration: none ;
+            padding: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 200px;
+            height: 90px;
+            display: inline-block;
+            font-family:'Roboto', sans-serif;
+            border-top: solid 5px #b84eca;
+            border-bottom: solid 6px #8d2f9d;
+            border-right: solid 7px  #c776d6;
+            border-left: solid 8px #dfb0e8;
+            margin-left: 10px;
+        }
+        &__indexcuadro4 {
+            color: #000000;
+            background-color: #D7DA62;
+            text-decoration: none ;
+            padding: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 200px;
+            height: 90px;
+            display: inline-block;
+            font-family:'Roboto', sans-serif;
+            border-top: solid 5px #dbdd6e;
+            border-bottom: solid 6px #d1d345;
+            border-right: solid 7px  #e5e798;
+            border-left: solid 8px #f0f0c1;
+            margin-left: 10px;
+        } 
+        &__indexcuadro5 {
+            color:white;
+            background-color: #FF5959;
+            text-decoration: none ;
+            padding: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 200px;
+            height: 90px;
+            display: inline-block;
+            font-family:'Roboto', sans-serif;
+            border-top: solid 5px #ff5959;
+            border-bottom: solid 6px #ff3333;
+            border-right: solid 7px  #ff8080;
+            border-left: solid 8px #ffb3b3;
+            margin-left: 10px;
        }
+        &__indexcuadro6 {
+            color:black;
+            background-color: black;
+            padding: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+            width: 100px;
+            height: 90px;
+            display: inline-block;
+        }
+        &__msjeinicial {
+            color:white;
+            text-align: right;
+            font-size: 150%;
+            font-family:'Roboto', sans-serif;
+            display: inline-block;
+               }
+        }
+
   
   
   
@@ -433,19 +420,18 @@
         }
     }
 
-    
+
   .asidedir {
     padding-left: 5px;
     padding-top: 0px;
     font-family:'Roboto', sans-serif;
     color: #8c8c8c;
+    &__direccion {
+        color: #8c8c8c;
+        font-family:'Roboto', sans-serif;
               }
-  
-  .direccion {
-    color: #8c8c8c;
-    font-family:'Roboto', sans-serif;
-              }
-      
+            }
+
   #grillacontacto {
     display: grid;
     grid-template-areas:
